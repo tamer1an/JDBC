@@ -1,4 +1,4 @@
-package src.tamer1an.dao;
+package org.tamer1an.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,6 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.stereotype.Component;
+
 import org.tamer1an.model.Circle;
 
 @Component

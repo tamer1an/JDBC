@@ -1,11 +1,9 @@
 package org.tamer1an.model;
 
-
-
 public class Circle {
-
 	private int id;
 	private String name;
+	
 	public int  getId() {
 		return id;
 	}
@@ -18,11 +16,9 @@ public class Circle {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
 	public Circle(int circleId, String name) {
 		setId(circleId);
 		setName(name);
 		
 	}
-
 }
