@@ -10,6 +10,17 @@
     
     <context:annotation-config/>
     <context:component-scan base-package="org.tamer1an"/>
+    
+<!--  polling connection     
+       <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">  	
+	   <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+-->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    	<property name="driverClassName" value="org.apache.derby.jdbc.ClientDriver" />
+    	<property name="url" value="jdbc:derby://localhost:1527/db" />
+    	<property name="initialSize" value="2" />
+    	<property name="maxActive" value="5" />
+    </bean>
 
 </beans>
 
