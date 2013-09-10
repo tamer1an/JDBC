@@ -15,6 +15,6 @@ public class jdbbcDemo {
 //		System.out.println(circle.getName());
 		
 		
-		System.out.println(dao.getCircleCount());
+		System.out.println(dao.getAllCircles().size());
 	}
 }

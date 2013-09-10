@@ -21,4 +21,7 @@ public class Circle {
 		setName(name);
 		
 	}
+	public Circle() {
+		// TODO Auto-generated constructor stub
+	}
 }
